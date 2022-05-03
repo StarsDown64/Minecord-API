@@ -5,15 +5,15 @@ The API for <b>Minecord</b>: Connect chat between Minecraft and Discord!
 
 View Minecord on [GitHub](https://github.com/StarsDown64/Minecord) and [SpigotMC](https://www.spigotmc.org/resources/minecord.84702/).
 
-# JavaDoc
+## JavaDoc
 View the JavaDocs [here](https://starsdown64.github.io/Minecord-API).
 
-# Installation
+## Installation
 To add Minecord-API to your project:
 
-### Gradle:
+### Gradle
 
-```
+```gradle
 repositories {
     maven { url 'https://jitpack.io' }
 }
@@ -23,9 +23,9 @@ dependencies {
 }
 ```
 
-### Maven:
+### Maven
 
-```
+```xml
 <repositories>
     <repository>
         <id>jitpack.io</id>
