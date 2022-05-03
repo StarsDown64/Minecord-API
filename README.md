@@ -9,7 +9,7 @@ View Minecord on [GitHub](https://github.com/StarsDown64/Minecord) and [SpigotMC
 View the JavaDocs [here](https://starsdown64.github.io/Minecord-API).
 
 ## Installation
-To add Minecord-API to your project:
+To add Minecord-API to your project, use [JitPack](https://jitpack.io/#StarsDown64/Minecord-API):
 
 ### Gradle
 
@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.StarsDown64:Minecord-API:1.0.0'
+    implementation 'com.github.StarsDown64:Minecord-API:1.1.0'
 }
 ```
 
@@ -35,6 +35,6 @@ dependencies {
 <dependency>
     <groupId>com.github.StarsDown64</groupId>
     <artifactId>Minecord-API</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
