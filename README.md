@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.StarsDown64:Minecord-API:1.0.0'
+    implementation 'com.github.StarsDown64:Minecord-API:1.2.0'
 }
 ```
 
@@ -35,6 +35,6 @@ dependencies {
 <dependency>
     <groupId>com.github.StarsDown64</groupId>
     <artifactId>Minecord-API</artifactId>
-    <version>1.0.0</version>
+    <version>1.2.0</version>
 </dependency>
 ```
