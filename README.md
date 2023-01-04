@@ -1,5 +1,10 @@
 # Minecord-API
+![status](https://img.shields.io/badge/status-pr%20only-important)
+![status date](https://img.shields.io/badge/status%20update-january%202023-informational)
+
+
 [![Release](https://jitpack.io/v/StarsDown64/Minecord-API.svg)](https://jitpack.io/#StarsDown64/Minecord-API)
+![license](https://img.shields.io/badge/license-ISC-brightgreen)
 
 The API for <b>Minecord</b>: Connect chat between Minecraft and Discord!
 
