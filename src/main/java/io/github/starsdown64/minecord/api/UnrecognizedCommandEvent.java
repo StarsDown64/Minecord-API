@@ -25,6 +25,7 @@ public class UnrecognizedCommandEvent extends Event
 
     public UnrecognizedCommandEvent(String command, User author)
     {
+        super(true);
         this.command = command;
         this.author = author;
         this.reply = author.getAsMention() + ", that is not a valid command.";
