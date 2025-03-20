@@ -5,7 +5,7 @@ plugins {
 
 group 'io.github.starsdown64'
 archivesBaseName = 'minecord-api'
-version '1.6.0'
+version '1.6.1'
 
 sourceCompatibility = 1.17
 targetCompatibility = 1.17
@@ -13,14 +13,13 @@ targetCompatibility = 1.17
 repositories {
     mavenCentral()
     maven { url 'https://hub.spigotmc.org/nexus/content/repositories/public/'}
-    maven { url 'https://jitpack.io/' }
 }
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
-    compileOnly 'org.spigotmc:spigot-api:1.20.6-R0.1-SNAPSHOT'
-    compileOnly('net.dv8tion:JDA:5.0.0-beta.10')
+    compileOnly 'org.spigotmc:spigot-api:1.21.4-R0.1-SNAPSHOT'
+    compileOnly('net.dv8tion:JDA:5.3.0')
     {
         exclude module: 'opus-java'
     }

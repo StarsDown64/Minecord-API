@@ -115,8 +115,10 @@ public class UnrecognizedCommandEvent extends Event
      * Equivalent to calling {@code getAuthor().getAsTag()}
      * For those who do not want to reference JDA's library.
      *
+     * @deprecated tags are no longer a part of Discord and only extremely old and inactive accounts will have them.
      * @return the tag of the author.
      */
+    @Deprecated(since = "1.6.1", forRemoval = false)
     public String getAuthorAsTag()
     {
         return author.getAsTag();
